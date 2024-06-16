@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche de Codes INSEE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Recherche de Codes INSEE par Code Postal</h1>
+    <form id="searchForm">
+        <label for="postalCode">Code Postal:</label>
+        <input type="text" id="postalCode" name="postalCode" required>
+        <button type="submit">Rechercher</button>
+    </form>
+    <ul id="results"></ul>
+
+    <script src="app.js"></script>
+</body>
+</html>

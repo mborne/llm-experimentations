@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carte des Appellations Viticoles</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            width: 100%;
+            height: 600px;
+        }
+        #appellations {
+            margin-top: 20px;
+            width: 100%;
+            border-collapse: collapse;
+        }
+        #appellations th, #appellations td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        #appellations th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <table id="appellations">
+        <thead>
+            <tr id="appellations-header"></tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        // Créer une carte centrée sur une position par défaut
+        var map = L.map('map').setView([46.603354, 1.888334], 6);
+
+        // Ajouter une couche de tuiles OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Fonction pour récupérer les appellations viticoles via l'API APICARTO de l'IGN
+        async function getAppellations(lat, lng) {
+            const apiKey = 'VOTRE_CLE_API_IGN';
+            const pointGeoJSON = {
+                type: "Point",
+                coordinates: [lng, lat]
+            };
+            const url = `https://apicarto.ign.fr/api/aoc/appellation-viticole?apikey=${apiKey}`;
+
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        geom: pointGeoJSON
+                    })
+                });
+                if (!response.ok) {
+                    throw new Error('Network response was not ok ' + response.statusText);
+                }
+                const data = await response.json();
+
+                // Afficher les géométries sur la carte
+                map.eachLayer(function (layer) {
+                    if (layer instanceof L.GeoJSON) {
+                        map.removeLayer(layer);
+                    }
+                });
+                if (data && data.features) {
+                    data.features.forEach(feature => {
+                        if (feature.geometry) {
+                            L.geoJSON(feature.geometry).addTo(map);
+                        }
+                    });
+                }
+
+                return data.features || [];
+            } catch (error) {
+                console.error('Erreur lors de la récupération des appellations:', error);
+                return [];
+            }
+        }
+
+        // Fonction pour mettre à jour le tableau des appellations
+        function updateAppellationsTable(features) {
+            const tbody = document.querySelector("#appellations tbody");
+            const thead = document.querySelector("#appellations-header");
+            tbody.innerHTML = "";
+            thead.innerHTML = "";
+
+            if (features.length > 0) {
+                const properties = Object.keys(features[0].properties);
+
+                // Créer les en-têtes de colonnes
+                properties.forEach(prop => {
+                    const th = document.createElement("th");
+                    th.textContent = prop;
+                    thead.appendChild(th);
+                });
+
+                // Remplir le tableau avec les données
+                features.forEach(feature => {
+                    const row = document.createElement("tr");
+                    properties.forEach(prop => {
+                        const cell = document.createElement("td");
+                        cell.textContent = feature.properties[prop] || "";
+                        row.appendChild(cell);
+                    });
+                    tbody.appendChild(row);
+                });
+            }
+        }
+
+        // Ajouter un événement de clic sur la carte
+        map.on('click', async function(e) {
+            var lat = e.latlng.lat;
+            var lng = e.latlng.lng;
+
+            // Récupérer les appellations viticoles pour la parcelle cliquée
+            var features = await getAppellations(lat, lng);
+
+            // Mettre à jour le tableau des appellations
+            updateAppellationsTable(features);
+
+            // Créer un contenu HTML pour la popup
+            var content = "<h3>Appellations viticoles</h3><ul>";
+            features.forEach(feature => {
+                if (feature.properties && feature.properties.nom_aoc) {
+                    content += "<li>" + feature.properties.nom_aoc + "</li>";
+                }
+            });
+            content += "</ul>";
+
+            // Afficher une popup à l'emplacement cliqué avec les appellations
+            L.popup()
+                .setLatLng(e.latlng)
+                .setContent(content)
+                .openOn(map);
+        });
+    </script>
+</body>
+</html>
