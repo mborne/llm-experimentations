@@ -8,7 +8,7 @@ Je débute avec le prompt suivant :
 
 Plusieurs précisions sont nécessaires (c.f. https://chatgpt.com/share/fb98c25c-e0e8-4424-991d-885dd99b634c) mais je finis par avoir une [démonstration](demo/index.html) fonctionnelle :
 
-![screenshot](screenshot.png)
+![screenshot](img/apicarto-aoc-viticole-v1.png)
 
 Pour finaliser, il conviendrait principalement de :
 

@@ -16,7 +16,7 @@ Le prompt utilisé sur ChatGPT est le suivant :
 
 Nous obtenons une [démonstration qui fonctionne sur le cas nominal](demo/index.html) :
 
-![Exemple de recherche de commune](screenshot.png)
+![Exemple de recherche de commune](img/cas-nominal.png)
 
 Il n'y a pas de distinction sur les types d'erreur (400 pour code postal mal formaté, 404 pour code postal non trouvé):
 
