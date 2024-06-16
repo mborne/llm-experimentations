@@ -16,18 +16,19 @@ Plusieurs précisions sont nécessaires (c.f. https://chatgpt.com/share/fb98c25c
 
 ![screenshot](img/apicarto-aoc-viticole-v1.png)
 
-Pour finaliser, il conviendrait principalement de :
+Pour finaliser, il conviendrait principalement de faire quelques retouches pour :
 
-* Zoomer sur les résultats
-* Remplacer le fond de plan par un fond IGN
+* Améliorer le rendu
 * Ajouter un formulaire de localisation
+* Zoomer sur les résultats
 * Comprendre pourquoi une seule géométrie s'affiche (petit bug?)
+* Remplacer le fond de plan par un fond IGN
 
-Nous avons en tout cas une base de travail intéressante même si nous repassons en pilotage manuel.
+Nous avons en tout cas une base de travail intéressante même si nous repassons en mode codage.
 
 ## Analyse de la réponse
 
-Tout le jeu consiste à être assez précis pour que ChatGPT comprenne ce qu'on veut. Dans le cas présent, il est intéressant de noter que ces réponses tendrait à retoucher quelques points dans les spécifications de l'API utilisée.
+Tout le jeu consiste à être assez précis pour que ChatGPT comprenne ce qu'on veut. Dans le cas présent, il conviendrait de voir si des retouches au niveau des spécifications OpenAPI permettrait de lui faciliter le travail.
 
 ## Remarques
 
