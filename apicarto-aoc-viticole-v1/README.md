@@ -1,5 +1,11 @@
 # ChatGPT (GPT-4o) - Afficher les appellations viticoles sur une carte LeafLet en appelant APICARTO
 
+## Contexte
+
+* Compte gratuit [chatgpt.com](https://chatgpt.com/)
+* Modèle : GPT-4o
+* Date : 16/06/2024
+
 ## Expérimentation
 
 Je débute avec le prompt suivant :
