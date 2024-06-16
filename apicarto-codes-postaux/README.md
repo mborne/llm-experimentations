@@ -10,7 +10,7 @@
 
 Le prompt utilisé sur ChatGPT est le suivant :
 
-> Peux-tu m'écrire une page HTML et JavaScript permettant d'afficher la liste des codes INSEE correspondant à un code code postal à l'aide d'un appel à APICARTO?
+> **Peux-tu m'écrire une page HTML et JavaScript permettant d'afficher la liste des codes INSEE correspondant à un code code postal à l'aide d'un appel à APICARTO?**
 
 Nous obtenons une [démonstration qui fonctionne sur le cas nominal](demo/index.html) :
 

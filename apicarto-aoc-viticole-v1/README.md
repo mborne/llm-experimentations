@@ -10,7 +10,7 @@
 
 Je débute avec le prompt suivant :
 
-> Peux tu me produire une page HTML avec une carte LeafLet qui affiche la liste des appellations viticole couvrant une parcelle lorsque l'on clique sur la carte?
+> **Peux tu me produire une page HTML avec une carte LeafLet qui affiche la liste des appellations viticole couvrant une parcelle lorsque l'on clique sur la carte?**
 
 Plusieurs précisions sont nécessaires (c.f. https://chatgpt.com/share/fb98c25c-e0e8-4424-991d-885dd99b634c) mais je finis par avoir une [démonstration](demo/index.html) fonctionnelle :
 
