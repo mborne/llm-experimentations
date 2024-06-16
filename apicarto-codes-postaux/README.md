@@ -14,7 +14,7 @@ Le prompt utilisé sur ChatGPT est le suivant :
 >
 > c.f. [https://chatgpt.com/share/cca3eb87-4f1f-476e-8516-99f851596e73](https://chatgpt.com/share/cca3eb87-4f1f-476e-8516-99f851596e73)
 
-Nous obtenons une [démonstration qui fonctionne sur le cas nominal](index.html) :
+Nous obtenons une [démonstration qui fonctionne sur le cas nominal](demo/index.html) :
 
 ![Exemple de recherche de commune](screenshot.png)
 
@@ -29,5 +29,5 @@ Il serait intéressant de voir si l'[amélioration de la description des codes d
 
  pour la [réponse brute archivée dans le dépôt](reponse-brute.md)
 
-Voir commentaire ajouté dans [index.html](index.html) et [app.js](app.js). Par rapport à de précédents tests avec le modèle GPT 3.5, je note principalement avec cette expérimentation que **ChatGPT (GPT-4o) est capable de trouver et lire en profondeur des spécifications OpenAPI exposées sur internet**.
+Voir commentaire ajouté dans [index.html](https://github.com/mborne/llm-experimentations/blob/main/apicarto-codes-postaux/demo/index.html) et [app.js](https://github.com/mborne/llm-experimentations/blob/main/apicarto-codes-postaux/app.js). Par rapport à de précédents tests avec le modèle GPT 3.5, je note principalement avec cette expérimentation que **ChatGPT (GPT-4o) est capable de trouver et lire en profondeur des spécifications OpenAPI exposées sur internet**.
 
