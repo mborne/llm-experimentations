@@ -1,0 +1,70 @@
+openapi: "3.1.0"
+
+info:
+  title: Les services de la Géoplateforme pour ChatGPT
+  version: 1.0.0
+  description: >
+    Vue partielle des services de la Géoplateforme pour utilisation dans ChatGPT
+
+servers:
+  - url: https://data.geopf.fr
+    description: Serveur de production
+
+paths:
+  /altimetrie/1.0/calcul/alti/rest/elevation.json:
+    get:
+      description: Renvoie l'altitude pour un point donné par sa longitude et sa latitude
+      operationId: getElevation
+      parameters:
+        - in: query
+          name: lon
+          required: true
+          schema:
+            type: number
+          example: -1.691634
+          description: "La longitude du point d'intérêt"
+        - in: query
+          name: lat
+          required: true
+          schema:
+            type: number
+          example: 48.104237
+          description: "La latitude du point d'intérêt"
+        - in: query
+          name: resource
+          required: true
+          schema:
+            type: string
+          description: "La ressource utilisée"
+          example: ign_rge_alti_wld
+
+      tags:
+        - altimetrie
+      responses:
+        "200":
+          description: La liste des communes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  elevations:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        lon:
+                          type: number
+                          description: La longitude
+                          example: -1.691634
+                        lat:
+                          type: number
+                          description: La latitude
+                          example: 48.104237
+                        z:
+                          type: number
+                          description: L'altitude
+                          example: 26.46
+                        acc:
+                          type: string
+                          description: Information de précision

@@ -15,6 +15,8 @@ Quelques tests sur les capacités des LLM.
 * [apicarto-aoc-viticole-v1 - Carte LeafLet présentant les AOC viticoles pour une position donnée (v1)](apicarto-aoc-viticole-v1/README.md)
 
 
+* [gpf-altitude - Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT](gpf-altitude/README.md)
+
 ## Mise en garde
 
 * Ces premiers tests sont réalisés avec un compte gratuit sur ChatGPT.
