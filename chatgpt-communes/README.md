@@ -10,7 +10,7 @@ ChatGPT répond sans peine à la question **"Quel est le code INSEE de la commun
 
 Le modèle intègre les informations exactes permettant de produire une réponse correcte.
 
-Paradoxalement, il ne sera pas en mesure de répondre à la question **Quelles sont les communes ayant pour code postal 25390?**
+> Paradoxalement, il ne sera pas forcément en mesure de répondre à la question **Quelles sont les communes ayant pour code postal 25390?** (c.f. [ChatGPT - Intégration du module APICARTO codes-postaux sous forme d'une action](../chatgpt-apicarto-codes-postaux/README.md))
 
 ## Capacité à rechercher la population d'une commune...
 
