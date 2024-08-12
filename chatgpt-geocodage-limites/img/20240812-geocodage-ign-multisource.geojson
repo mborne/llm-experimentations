@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "source": "Mappy"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.4196741, 48.8422566]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "source": "Wikipedia"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.4196827, 48.8422592]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "source": "IGN (Geodesie)"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.4196804, 48.8422573]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "source": "Météo-France"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [2.4196762, 48.8422549]
+        }
+      }
+    ]
+  }

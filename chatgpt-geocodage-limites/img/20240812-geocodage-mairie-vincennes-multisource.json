@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "source": "Horaires-Mairies.fr"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.4379865, 48.8473732]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "source": "CartesFrance.fr"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.4403082, 48.8477465]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "source": "Geodatos.net"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.4376900, 48.8486000]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "source": "Coordonnees-GPS.fr (Google Map)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [2.4371000, 48.8485000]
+            }
+        }
+    ]
+}
