@@ -14,7 +14,7 @@ Le modèle intègre les informations exactes permettant de produire une réponse
 
 ## Capacité à rechercher la population d'une commune...
 
-En revanche, pour la question **"Quelle est la population de la commune d'Ornans?"**, ChatGPT **commence par fournir un information imprécise** (4140 habitants). Ce n'est que lorsqu'il se décide de réaliser une **recherche sur le web** qu'il fournit une **information vérifiable** (4422 habitants) :
+Pour la question **"Quelle est la population de la commune d'Ornans?"**, ChatGPT **commence par fournir un information imprécise** (4140 habitants). Ce n'est que lorsqu'il se décide de réaliser une **recherche sur le web** qu'il fournit une **information vérifiable** (4422 habitants) :
 
 ![alt text](img/20240812-ornans-pop2021.png)
 
