@@ -2,7 +2,7 @@
 
 ## Contexte
 
-[ChatGPT est capable de fournir les coordonnées des lieux mais il est limité dans la mesure où il ne réalise pas des appels à de véritables services de géocodage](chatgpt-gpt4o-geocodage-limites.md).
+[ChatGPT est capable de fournir les coordonnées des lieux mais il est limité dans la mesure où il ne réalise pas des appels à de véritables services de géocodage](../chatgpt-geocodage-limites/README.md).
 
 Il est toutefois **possible d'intégrer un service de géocodage** tel le [service d'autocomplétion de la GéoPlateforme](https://geoservices.ign.fr/documentation/services/services-geoplateforme/autocompletion) **sous forme d'une action** à l'aide des spécifications OpenAPI (c.f. [gpf-autocomplete.yaml](gpf-autocomplete.yaml) où capabilities est supprimé par rapport à l'original)
 

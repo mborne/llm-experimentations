@@ -64,6 +64,6 @@ La visualisation de la distribution des résultats donne une idée de la précis
 
 Pour une meilleure précision et une meilleure maîtrise, il semble intéressant d'**intégrer un véritable service de géocodage**.
 
-Voir [ChatGPT - intégration du service de géocodage de la GéoPlateforme](chatgpt-gpt4o-geocodage-gpf.md) pour un exemple avec celui de la GéoPlateforme.
+Voir [ChatGPT - intégration du service de géocodage de la GéoPlateforme](../chatgpt-geocodage-gpf/README.md) pour un exemple avec celui de la GéoPlateforme.
 
 
