@@ -11,7 +11,7 @@ Paradoxalement, il répond de manière correcte à la question "Quel est le code
 
 ![Illustration de la récupération du bon code postal pour Ornans](img/20240812-codes-postaux-02.png)
 
-Cette incohérence dans les réponses qu'**un LLM ne raisonne pas**. Pour que ChatGPT soit en mesure de répondre correctement à la question initiale, nous pouvons faire en sorte qu'il fasse **appel au [module code postal d'APICARTO](https://apicarto.ign.fr/api/doc/codes-postaux)** ( https://apicarto.ign.fr/api/codes-postaux/communes/25390 ) pour **enrichir son contexte avant qu'il formule la réponse**.
+Cette incohérence dans les réponses montre qu'**un LLM ne raisonne pas**. Pour que ChatGPT soit en mesure de répondre correctement à la question initiale, nous pouvons faire en sorte qu'il fasse **appel au [module code postal d'APICARTO](https://apicarto.ign.fr/api/doc/codes-postaux)** ( https://apicarto.ign.fr/api/codes-postaux/communes/25390 ) pour **enrichir son contexte avant qu'il formule la réponse**.
 
 ## Configuration de l'action
 
