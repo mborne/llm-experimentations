@@ -2,12 +2,6 @@
 
 Quelques tests sur les capacités des LLM.
 
-## Constats
-
-* ChatGPT (GPT-4o) est capable de trouver et lire en profondeur des spécifications OpenAPI exposées sur internet
-* ChatGPT (GPT-4o) est capable de lire le contenu d'internet
-* ChatGPT (GPT-4o) dispose de capacité de géocodage limitée à date
-
 ## ChatGPT - Recherche web et utilisation des API IGN
 
 > Point de départ : [IGNF/apicarto - #109](https://github.com/IGNF/apicarto/issues/109)
