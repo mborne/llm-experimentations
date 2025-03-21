@@ -21,6 +21,12 @@ Quelques tests sur les capacités des LLM.
 
 * [gpf-altitude - Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT](gpf-altitude/README.md)
 
+## Assistant de codage
+
+* 
+
+
+
 ## Mise en garde
 
 * La création de GPT avec des actions requière un compte avec une licence payante.
