@@ -23,9 +23,11 @@ Quelques tests sur les capacités des LLM.
 
 ## Assistant de codage
 
-* 
+* [Cursor - quelques tests de génération de code](cursor-notes/README.md)
 
+## MCP
 
+* [mcp-server-gpf - test d'implémentation d'un serveur MCP appelant un service Géoplateforme](mcp-server-gpf/README.md)
 
 ## Mise en garde
 

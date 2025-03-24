@@ -1,4 +1,4 @@
-# mcp-server-gpf
+# mcp-server-gpf - test d'implémentation d'un serveur MCP appelant un service Géoplateforme
 
 **Test** d'implémentation d'un [serveur MCP](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file#model-context-protocol-servers) faisant appel au [service d'autocomplétion de la Géoplateforme](https://geoservices.ign.fr/documentation/services/services-geoplateforme/autocompletion) pour le géocodage.
 
