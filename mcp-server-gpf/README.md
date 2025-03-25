@@ -27,7 +27,7 @@ cd mcp-server-gpf
 npm run build
 ```
 
-* Configurer l'utilisation du serveur :
+* Configurer l'utilisation du serveur dans le fichier `mcp.json` de l'IDE :
 
 ```json
 {
