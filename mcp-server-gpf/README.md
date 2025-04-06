@@ -14,7 +14,7 @@
 Réponse à la question "peux-tu calculer la distance entre Loray et Besançon" par appel à :
 
 * [geocode](src/tools/GeocodeTool.ts) pour le géocodage des deux lieux.
-* [harsine](src/tools/Harversine.ts) pour le calcul d'une distance à vol d'oiseau.
+* [haversine](src/tools/HaversineTool.ts) pour le calcul d'une distance à vol d'oiseau.
 
 ![exemple géocodage](docs/distance-loray-besancon.png)
 
@@ -27,7 +27,7 @@ cd mcp-server-gpf
 npm run build
 ```
 
-* Configurer l'utilisation du serveur :
+* Configurer l'utilisation du serveur dans le fichier `mcp.json` de l'IDE :
 
 ```json
 {
