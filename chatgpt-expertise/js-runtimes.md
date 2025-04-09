@@ -1,5 +1,5 @@
 ---
-question: Peux-tu faire un état des lieux des principaux environnements d'exécution JavaScript (NodeJS, Deno,...) avec un tableau de synthèse incluant le nom, la date de naissance, le créateur, les avantages et inconvénients et les caractéristiques techniques (ex : support natif de TypeScript)
+question: "Peux-tu faire un état des lieux des principaux environnements d'exécution JavaScript (NodeJS, Deno,...) avec un tableau de synthèse incluant le nom, la date de naissance, le créateur, les avantages et inconvénients et les caractéristiques techniques (ex : support natif de TypeScript)"
 modele: ChatGPT-4o
 date: 20250409
 liens: https://chatgpt.com/share/67f6cfe3-997c-8009-9f4d-0b553023cc31
