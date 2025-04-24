@@ -29,6 +29,10 @@ Quelques tests sur les capacités des LLM.
 
 * [mcp-server-gpf - test d'implémentation d'un serveur MCP appelant un service Géoplateforme](mcp-server-gpf/README.md)
 
+## Divers
+
+* [ChatGPT - Utiliser l'IA pour faire le point sur les technologies](chatgpt-expertise/README.md)
+
 ## Mise en garde
 
 * La création de GPT avec des actions requière un compte avec une licence payante.
