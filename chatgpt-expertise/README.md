@@ -7,4 +7,4 @@
 
 ## LLM
 
-* [RAG & Tool-Calling : Comment les LLM accèdent à la bonne information ou agissent intelligemment](rag-et-toolcalling.md)
+* [RAG & Tool Calling : Accès intelligent à l'information et aux actions via les LLM](rag-et-toolcalling-v2.md)
