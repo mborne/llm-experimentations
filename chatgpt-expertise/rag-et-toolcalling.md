@@ -95,3 +95,47 @@ ils deviennent **des interfaces universelles** capables de :
 * **agir concrètement dans vos systèmes** via des fonctions ou services métiers.
 
 👉 Le tout de façon fluide, intelligente, et adaptée à chaque cas d’usage.
+
+---
+
+> Peux tu expliquer brièvement comment on peut compléter tout ça avec l'utilisation de JavaScript, HTML et CSS pour personnalisation le rendu (ex : rendu cartographique)?
+
+## Pourquoi HTML/CSS/JS avec RAG + Tool-Calling ?
+
+Bien sûr ! Une fois que tu as mis en place un assistant LLM basé sur RAG + Tool-Calling, tu peux **enrichir l'expérience utilisateur** grâce à **JavaScript, HTML et CSS**, en particulier pour **personnaliser le rendu des réponses**.
+
+Voici une brève explication de **comment et pourquoi utiliser ces technologies côté interface** :
+
+---
+
+### 🖼️ Pourquoi HTML/CSS/JS avec RAG + Tool-Calling ?
+
+L’assistant peut te renvoyer :
+
+* des **données brutes** (résultats de recherche, JSON, coordonnées, etc.),
+* ou des **réponses enrichies** que tu peux rendre plus visuelles et interactives côté front.
+
+Tu peux alors **convertir les résultats** en :
+
+* 📊 **Graphiques** (avec Chart.js, Recharts…)
+* 🗺️ **Cartes interactives** (Leaflet, MapLibre, Mapbox…)
+* 📋 **Fiches dynamiques** avec filtres ou onglets
+* 🧩 **Composants métiers** (ex: timelines, Gantt, workflow, etc.)
+
+### 🔧 Autres cas d’usage de JavaScript + HTML/CSS
+
+| Objectif                | Librairies ou technologies utiles      |
+| ----------------------- | -------------------------------------- |
+| Graphiques interactifs  | Chart.js, D3.js, Recharts              |
+| Cartes dynamiques       | Leaflet, MapLibre, Mapbox GL JS        |
+| Interfaces filtrables   | React, Vue.js, Alpine.js               |
+| Habillage responsive    | Tailwind CSS, Bootstrap                |
+| Composants LLM "riches" | WebComponents, Markdown + JS dynamique |
+
+---
+
+### 📦 Intégration dans un assistant existant
+
+1. **Appel d'API** via tool-calling → réponse JSON ou GeoJSON
+2. **Le front lit la réponse** via JavaScript
+3. **HTML/CSS/JS affichent la réponse** de manière visuelle, interactive, contextuelle
