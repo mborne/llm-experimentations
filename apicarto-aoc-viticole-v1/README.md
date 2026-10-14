@@ -1,3 +1,7 @@
+---
+date: 20240616
+---
+
 # ChatGPT (GPT-4o) - Afficher les appellations viticoles sur une carte LeafLet en appelant APICARTO
 
 ## Contexte

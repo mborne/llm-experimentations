@@ -1,3 +1,7 @@
+---
+date: 20240616
+---
+
 # ChatGPT (GPT-4o) - Afficher les codes INSEE correspondant à un Code Postal en appelant APICARTO
 
 ## Contexte

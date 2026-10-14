@@ -1,3 +1,7 @@
+---
+date: 20240812
+---
+
 # ChatGPT - recherche d'informations sur les communes
 
 > Objectif : illustrer la capacité à réaliser des recherches web et les limites de données intégrées au modèle.

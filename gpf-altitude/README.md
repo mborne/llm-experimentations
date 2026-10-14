@@ -1,3 +1,7 @@
+---
+date: 20240731
+---
+
 # Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT
 
 ## Principe

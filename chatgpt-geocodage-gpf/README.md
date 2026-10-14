@@ -1,3 +1,7 @@
+---
+date: 20240812
+---
+
 # ChatGPT - intégration du service de géocodage de la GéoPlateforme
 
 ## Contexte

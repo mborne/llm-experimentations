@@ -1,3 +1,7 @@
+---
+date: 20240812
+---
+
 # ChatGPT - les limites des capacités de géocodage par défaut
 
 ## Des positions pas toujours précises dans la mémoire...

@@ -1,3 +1,7 @@
+---
+date: 20250321
+---
+
 # Cursor - quelques tests de génération de code
 
 ## Construction d'une image docker pour une application NextJS
