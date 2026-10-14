@@ -1,5 +1,6 @@
 ---
 date: 20240616
+pertinence: "faible - génération de code désormais courante ; seule l'idée d'améliorer les spécifications OpenAPI pour guider les LLM reste à retenir."
 ---
 
 # ChatGPT (GPT-4o) - Afficher les appellations viticoles sur une carte LeafLet en appelant APICARTO

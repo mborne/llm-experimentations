@@ -1,5 +1,6 @@
 ---
 date: 20250325
+pertinence: "faible - historique : première expérimentation MCP reprise et dépassée par ignfab/geocontext."
 ---
 
 # mcp-server-gpf - test d'implémentation d'un serveur MCP appelant un service Géoplateforme

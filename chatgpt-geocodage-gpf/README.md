@@ -1,5 +1,6 @@
 ---
 date: 20240812
+pertinence: "moyenne - technique d'intégration (action ChatGPT) dépassée, mais illustre le gain de précision apporté par le service de géocodage de la Géoplateforme."
 ---
 
 # ChatGPT - intégration du service de géocodage de la GéoPlateforme

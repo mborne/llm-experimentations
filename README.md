@@ -2,6 +2,8 @@
 
 Quelques tests sur les capacités des LLM.
 
+> **ARCHIVÉ** : Ce dépôt n'est plus maintenu. Les points pertinents sont en cours d'intégration dans [mborne.github.io](https://github.com/mborne/mborne.github.io) (c.f. [mborne/mborne.github.io#17](https://github.com/mborne/mborne.github.io/issues/17)). La pertinence de chaque fiche à ce jour est indiquée dans ses métadonnées (`pertinence`).
+
 ## ChatGPT - Recherche web et utilisation des API IGN
 
 > Point de départ : [IGNF/apicarto - #109](https://github.com/IGNF/apicarto/issues/109)
@@ -31,7 +33,7 @@ Quelques tests sur les capacités des LLM.
 
 ## Mise en garde
 
-* La création de GPT avec des actions requière un compte avec une licence payante.
+* ~~La création de GPT avec des actions requière un compte avec une licence payante.~~
 * **Les codes de ce dépôt sont générés par ChatGPT**
 
 ## Licence

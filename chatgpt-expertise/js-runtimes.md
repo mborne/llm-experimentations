@@ -3,6 +3,7 @@ question: "Peux-tu faire un état des lieux des principaux environnements d'exé
 modele: ChatGPT-4o
 date: 20250409
 liens: https://chatgpt.com/share/67f6cfe3-997c-8009-9f4d-0b553023cc31
+pertinence: "faible - contenu généré par ChatGPT en 2025 et en partie obsolète (ex : Node.js exécute désormais nativement du TypeScript par suppression des types)."
 ---
 
 > **ATTENTION**: Le contenu suivant est généré par ChatGPT

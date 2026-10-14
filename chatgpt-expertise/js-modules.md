@@ -3,6 +3,7 @@ question: Tu peux me faire un état de la guerre des syntaxes pour la gestion de
 modele: ChatGPT-4o
 date: 20250406
 liens: https://chatgpt.com/share/67f25326-fdb4-8009-8449-35bad137fff3
+pertinence: "faible - contenu généré par ChatGPT en 2025 et non vérifié ; à rafraîchir si besoin."
 ---
 
 # ChatGPT - La guerre des modules (CommonJS, ESM) en JavaScript 

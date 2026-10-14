@@ -1,5 +1,6 @@
 ---
 date: 20240812
+pertinence: "forte - montre le besoin d'un véritable service de géocodage (imprécision sur les villages et les adresses, recherche web non adaptée) ; mesures à refaire avec les modèles actuels."
 ---
 
 # ChatGPT - les limites des capacités de géocodage par défaut

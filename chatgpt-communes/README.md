@@ -1,5 +1,6 @@
 ---
 date: 20240812
+pertinence: "faible - phénomène difficile à reproduire avec la recherche web activée par défaut ; le constat d'informations imprécises tant que le modèle ne s'appuie pas sur une source reste valable."
 ---
 
 # ChatGPT - recherche d'informations sur les communes

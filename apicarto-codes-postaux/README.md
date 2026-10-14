@@ -1,5 +1,6 @@
 ---
 date: 20240616
+pertinence: "moyenne - les modèles génèrent aujourd'hui ce type de code sans difficulté ; l'importance de documenter les codes d'erreur dans les spécifications OpenAPI reste valable."
 ---
 
 # ChatGPT (GPT-4o) - Afficher les codes INSEE correspondant à un Code Postal en appelant APICARTO

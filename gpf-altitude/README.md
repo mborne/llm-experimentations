@@ -1,5 +1,6 @@
 ---
 date: 20240731
+pertinence: "faible - notes succinctes sur une action ChatGPT dépassée (fonctionnalité couverte par ignfab/geocontext)."
 ---
 
 # Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT

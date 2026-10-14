@@ -1,5 +1,6 @@
 ---
 date: 20240812
+pertinence: "moyenne - l'action ChatGPT est dépassée (MCP), mais le besoin de s'appuyer sur une source de référence (APICARTO codes-postaux) plutôt que sur la mémoire du modèle reste d'actualité."
 ---
 
 # ChatGPT - Intégration du module APICARTO codes-postaux sous forme d'une action
