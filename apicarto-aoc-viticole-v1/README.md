@@ -4,6 +4,8 @@ date: 20240616
 
 # ChatGPT (GPT-4o) - Afficher les appellations viticoles sur une carte LeafLet en appelant APICARTO
 
+> **DÉPRÉCIÉ** : L'intégration d'API avec les LLM passe aujourd'hui plutôt par l'utilisation de serveurs MCP (ex : [ignfab/geocontext](https://github.com/ignfab/geocontext)).
+
 ## Objectif
 
 Évaluer la capacité de ChatGPT à générer une carte Leaflet affichant les appellations viticoles d'une parcelle via APICARTO.

@@ -4,6 +4,8 @@ date: 20240731
 
 # Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT
 
+> **DÉPRÉCIÉ** : L'intégration d'un appel d'API sous forme d'une action ChatGPT est aujourd'hui remplacée par l'utilisation de serveurs MCP ou de skills.
+
 ## Objectif
 
 Tester l'intégration du service altimétrie de la Géoplateforme dans ChatGPT sous forme d'une action.

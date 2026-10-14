@@ -4,6 +4,8 @@ date: 20240812
 
 # ChatGPT - intégration du service de géocodage de la GéoPlateforme
 
+> **DÉPRÉCIÉ** : L'intégration d'un appel d'API sous forme d'une action ChatGPT est aujourd'hui remplacée par l'utilisation de serveurs MCP ou de skills.
+
 ## Objectif
 
 Améliorer la précision du géocodage de ChatGPT en intégrant le service d'autocomplétion de la Géoplateforme sous forme d'une action.

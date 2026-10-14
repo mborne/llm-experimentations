@@ -4,6 +4,8 @@ date: 20240812
 
 # ChatGPT - Intégration du module APICARTO codes-postaux sous forme d'une action
 
+> **DÉPRÉCIÉ** : L'intégration d'un appel d'API sous forme d'une action ChatGPT est aujourd'hui remplacée par l'utilisation de serveurs MCP (ex : [ignfab/geocontext](https://github.com/ignfab/geocontext)).
+
 ## Objectif
 
 Corriger les réponses erronées de ChatGPT sur les communes d'un code postal en intégrant le module APICARTO codes-postaux sous forme d'une action.
