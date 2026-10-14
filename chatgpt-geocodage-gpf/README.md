@@ -4,6 +4,10 @@ date: 20240812
 
 # ChatGPT - intégration du service de géocodage de la GéoPlateforme
 
+## Objectif
+
+Améliorer la précision du géocodage de ChatGPT en intégrant le service d'autocomplétion de la Géoplateforme sous forme d'une action.
+
 ## Contexte
 
 [ChatGPT est capable de fournir les coordonnées des lieux mais il est limité dans la mesure où il ne réalise pas des appels à de véritables services de géocodage](../chatgpt-geocodage-limites/README.md).

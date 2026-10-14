@@ -6,6 +6,10 @@ date: 20250325
 
 **Test** d'implémentation d'un [serveur MCP](https://github.com/modelcontextprotocol/servers?tab=readme-ov-file#model-context-protocol-servers) faisant appel au [service d'autocomplétion de la Géoplateforme](https://geoservices.ign.fr/documentation/services/services-geoplateforme/autocompletion) pour le géocodage.
 
+## Objectif
+
+Tester l'implémentation d'un serveur MCP appelant le service d'autocomplétion de la Géoplateforme pour le géocodage.
+
 ## Motivation
 
 * ChatGPT s'interface facilement avec des API REST/JSON sur la base des spécifications OpenAPI.

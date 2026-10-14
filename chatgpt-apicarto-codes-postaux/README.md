@@ -4,6 +4,10 @@ date: 20240812
 
 # ChatGPT - Intégration du module APICARTO codes-postaux sous forme d'une action
 
+## Objectif
+
+Corriger les réponses erronées de ChatGPT sur les communes d'un code postal en intégrant le module APICARTO codes-postaux sous forme d'une action.
+
 ## Contexte
 
 Par défaut, ChatGPT répond de manière erronée à la question **"Quelles sont les communes ayant pour code postal 25390?"** :

@@ -4,6 +4,10 @@ date: 20240812
 
 # ChatGPT - les limites des capacités de géocodage par défaut
 
+## Objectif
+
+Mettre en évidence les limites de précision du géocodage réalisé par ChatGPT sans service dédié.
+
 ## Des positions pas toujours précises dans la mémoire...
 
 ChatGPT connait la **position précise de la tour Eiffel** :

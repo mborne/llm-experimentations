@@ -4,6 +4,10 @@ date: 20240616
 
 # ChatGPT (GPT-4o) - Afficher les appellations viticoles sur une carte LeafLet en appelant APICARTO
 
+## Objectif
+
+Évaluer la capacité de ChatGPT à générer une carte Leaflet affichant les appellations viticoles d'une parcelle via APICARTO.
+
 ## Contexte
 
 * Compte gratuit [chatgpt.com](https://chatgpt.com/)

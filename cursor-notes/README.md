@@ -4,6 +4,10 @@ date: 20250321
 
 # Cursor - quelques tests de génération de code
 
+## Objectif
+
+Tester les capacités de génération de code de Cursor (ex : Dockerfile pour une application NextJS).
+
 ## Construction d'une image docker pour une application NextJS
 
 * `Generate a Dockerfile nextjs app` -> **KO, Dockerfile standard NodeJS**

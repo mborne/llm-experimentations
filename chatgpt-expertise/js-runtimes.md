@@ -13,6 +13,10 @@ Cette fiche présente une synthèse des principaux environnements permettant d'e
 
 ---
 
+## Objectif
+
+Faire le point sur les principaux environnements d'exécution JavaScript (NodeJS, Deno, Bun,...).
+
 ## 🟢 Node.js
 
 - **Date de création** : 2009  

@@ -4,6 +4,10 @@ date: 20240616
 
 # ChatGPT (GPT-4o) - Afficher les codes INSEE correspondant à un Code Postal en appelant APICARTO
 
+## Objectif
+
+Évaluer la capacité de ChatGPT à générer une page HTML/JavaScript affichant les codes INSEE d'un code postal via APICARTO.
+
 ## Contexte
 
 * Compte gratuit [chatgpt.com](https://chatgpt.com/)

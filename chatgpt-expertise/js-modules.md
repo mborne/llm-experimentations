@@ -11,6 +11,10 @@ liens: https://chatgpt.com/share/67f25326-fdb4-8009-8449-35bad137fff3
 
 La guerre des syntaxes pour la **gestion des modules en JavaScript** est un sujet à la fois technique et politique (dans le bon sens du terme). Cette fiche s'efforce de faire **état des lieux clair et à jour** (en 2025), en distinguant les principaux protagonistes, les enjeux, et les conséquences pour les devs.
 
+## Objectif
+
+Faire le point sur les syntaxes de gestion des modules en JavaScript (CommonJS, ESM,...).
+
 ## ⚔️ Les deux grandes syntaxes rivales
 
 ### 1. **CommonJS (CJS)**  

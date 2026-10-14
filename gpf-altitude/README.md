@@ -4,6 +4,10 @@ date: 20240731
 
 # Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT
 
+## Objectif
+
+Tester l'intégration du service altimétrie de la Géoplateforme dans ChatGPT sous forme d'une action.
+
 ## Principe
 
 * [gpf-altitude.yaml](gpf-altitude.yaml) - Rédaction d'une document OpenAPI minimale pour le [service Géoplateforme de calcul altimétrique](https://geoservices.ign.fr/documentation/services/services-geoplateforme/altimetrie)

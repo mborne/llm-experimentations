@@ -4,7 +4,9 @@ date: 20240812
 
 # ChatGPT - recherche d'informations sur les communes
 
-> Objectif : illustrer la capacité à réaliser des recherches web et les limites de données intégrées au modèle.
+## Objectif
+
+Illustrer la capacité à réaliser des recherches web et les limites des données intégrées au modèle.
 
 ## Capacité à récupérer le code INSEE d'une commune
 
