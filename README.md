@@ -21,10 +21,6 @@ Quelques tests sur les capacités des LLM.
 
 * [gpf-altitude - Quelques notes sur un test intégration du service altimétrie de la Géoplateforme dans ChatGPT](gpf-altitude/README.md) (2024-07-31)
 
-## Assistant de codage
-
-* [Cursor - quelques tests de génération de code](cursor-notes/README.md) (2025-03-21)
-
 ## MCP
 
 * [mcp-server-gpf - test d'implémentation d'un serveur MCP appelant un service Géoplateforme](mcp-server-gpf/README.md) (2025-03-25)
